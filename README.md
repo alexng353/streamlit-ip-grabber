@@ -9,7 +9,7 @@ This component is built in TypeScript and Python using REACT.js.
 Currently, the component uses [ipify](https://ipify.org) to fetch the user's public IP address.
 * Install the component:
 
-### [Download Latest from here](https://github.com/alexng353/streamlit-ip-grabber/releases/tag/Latest)
+### [Download Latest from here](https://github.com/alexng353/streamlit-ip-grabber/releases)
 
 - Download the .whl
 - Open terminal and navigate to the directory with .whl in it

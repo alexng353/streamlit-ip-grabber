@@ -32,4 +32,4 @@ if not _RELEASE:
             st.session_state["ip"]=ip
             print("Got IP")
     if "ip" in st.session_state:
-        print(st.session_state['ip'])
+        st.write(st.session_state['ip'])

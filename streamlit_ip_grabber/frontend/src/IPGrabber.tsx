@@ -18,8 +18,8 @@ class IPGrabber extends StreamlitComponentBase{
   private getIP = (): void => {
     const url = "https://api.ipify.org/?format=json"
     fetch(url)
-      .then(response => response.json())
-      .then(data => Streamlit.setComponentValue(data.ip));
+    .then(response => response.json())
+    .then(data => Streamlit.setComponentValue(data.ip),function(){Streamlit.setComponentValue("failure")});
   }
 }
 export default withStreamlitConnection(IPGrabber)

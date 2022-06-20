@@ -14,7 +14,7 @@ Currently, the component uses [ipify](https://ipify.org) to fetch the user's pub
 - Download the .whl
 - Open terminal and navigate to the directory with .whl in it
 
-Then: `python3 -m pip install streamlit_ip_grabber-0.0.2-py3-none-any.whl`
+Then: `python3 -m pip install streamlit_ip_grabber-0.0.5-py3-none-any.whl`
 
 #
 
@@ -33,7 +33,7 @@ def getIP():
         st.write(st.session_state['ip'])
 ```
 
-* This most likely will NOT work if the client has an adblocker or content blocker installed. We're working on that next.
+* This will NOT work if the client has an adblocker or content blocker installed.
 ## Quick Links
 
 * [Streamlit Components documentation](https://docs.streamlit.io/library/components)
